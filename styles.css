@@ -1,0 +1,112 @@
+body {
+   margin: 0;
+   text-align: center;
+}
+.top-container {
+    background-color: #B9EDDD ;
+    position: relative;
+    padding-top: 100px;
+}
+
+h1{
+   color: white;
+   font-family: 'Merriweather', serif;
+   font-size: 3rem;
+}
+h2 {
+   color: white;
+   font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+#greatings {
+    color: #B9EDDD ;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+ }
+ .middle-container {
+   display: block;
+   
+ }
+ .botom-container {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: #569DAA;
+   height: 40px;
+
+ }
+ .uperstar {
+    width: 200px;
+    position: relative;
+   
+  
+ }
+ .downstar {
+    width: 200px;
+    position: relative;
+    }
+
+ #profipicture{
+   width: 250px;
+   border-radius: 20%;
+}
+P {
+   font-family: oswald;
+   font-size: 0.9rem;
+}
+#myskills {
+   color: #B9EDDD;
+}
+.parent {
+   display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr 1fr ;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    gap: 2rem;
+    
+}
+.design {
+   display: block;
+}
+.beer {
+   width: 480px;
+   height: 262px;
+}
+.slowtiping {
+   width: 328px ;
+   height: 262px;
+
+}
+.btn {
+      background: #11cdd4;
+      background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+      background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+      background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+      background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+      background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: "Montserrat", sans-serif;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+}
+.contact {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+}
+#zeleno {
+color: #B9EDDD;
+}
+
+
+footer {
+   display: block;
+}
